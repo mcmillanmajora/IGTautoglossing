@@ -22,4 +22,5 @@ python3 ./main.py ./path_to_corpus_file ./path_to_output_file ./path_to_saved_mo
 
 # Recommended Citation
 Please cite as:
-McMillan-Major, Angelina (2020) "Automating Gloss Generation in Interlinear Glossed Text," Proceedings of the Society for Computation in Linguistics: Vol. 3 , Article 33. Available at: https://scholarworks.umass.edu/scil/vol3/iss1/33 
+
+McMillan-Major, Angelina (2020) "Automating Gloss Generation in Interlinear Glossed Text," _Proceedings of the Society for Computation in Linguistics_: Vol. 3 , Article 33. Available at: https://scholarworks.umass.edu/scil/vol3/iss1/33 
