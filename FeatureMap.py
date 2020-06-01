@@ -9,6 +9,7 @@ import re
 import sys
 import string
 import corenlp
+import time
 
 class FeatureMap:
     def __init__(self, glosser=None):
@@ -366,7 +367,7 @@ class TwGls_Map(FeatureMap):
         except:
             self.lemmatizer = None
             time.sleep(5)
-            self.lemmatizer = CoreNLPClient(annotators=['ssplit', 'tokenize'], memory='8G', timeout=30000)
+            self.lemmatizer = corenlp.CoreNLPClient(annotators="tokenize ssplit pos lemma".split(), timeout=30000, memory='8G')
         return lemmas
 
     def rm_igt(self, igt):
